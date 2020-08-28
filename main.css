@@ -1,0 +1,40 @@
+*{box-sizing: border-box;}
+/* .box {
+    float: left;
+    border: 1px solid #000;
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+    text-align: center;
+}
+h1 {
+    clear: both;
+}
+span {
+    background-color: #aaf;
+    font:   1.3rem/50px cursive;
+} */
+
+.container,table {
+    width: 60%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+h1, p {
+    text-align: center;
+}
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+table  td {
+    border: 1px solid #00000044;
+    padding: 0.2em;
+}
+td:first-child {
+    background-color: #dddddd;
+    text-align: center;
+}
+td:last-child {
+    padding-left: 1em;
+}
